@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors - Online Survival Action Game</title>
+    <meta name="description" content="Play Monster Survivors - the ultimate survival action game with roguelite elements. Battle hordes of monsters, collect powerful upgrades and survive as long as you can!">
+    <link rel="canonical" href="https://monster-survivors.online/">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .game-container {
+            aspect-ratio: 16/9;
+        }
+        @media (max-width: 768px) {
+            .game-container {
+                aspect-ratio: 9/16;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans antialiased">
+    <header class="bg-white/80 backdrop-blur-md border-b border-gray-200 fixed w-full top-0 z-50">
+        <nav class="max-w-4xl mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <a href="/" class="text-xl font-semibold text-gray-900 hover:text-blue-500 transition-colors">
+                    Monster Survivors
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 pt-24 pb-12">
+        <article class="space-y-8">
+            <h1 class="text-4xl font-bold text-gray-900 mb-4">Monster Survivors</h1>
+            <p class="text-xl text-gray-600 mb-8">Survive endless monster waves in this action-packed roguelite adventure</p>
+
+            <!-- Game Embed -->
+            <section class="rounded-xl shadow-lg overflow-hidden bg-white p-2">
+                <div class="game-container">
+                    <iframe 
+                        src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
+                        class="w-full h-full border-0"
+                        title="Monster Survivors Online Game"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Game Description -->
+            <section class="space-y-6">
+                <h2 class="text-2xl font-semibold text-gray-900 pt-6">About the Game</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    Monster Survivors is an intense survival action game combining roguelite mechanics with fast-paced combat. 
+                    Face endless waves of unique monsters, collect powerful upgrades, and discover hidden synergies to extend 
+                    your survival time in this procedurally generated nightmare realm.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                        <h3 class="text-lg font-semibold mb-2">Key Features</h3>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Dynamic procedural level generation</li>
+                            <li>30+ unique monster types</li>
+                            <li>RPG-style character progression</li>
+                            <li>Online leaderboards</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                        <h3 class="text-lg font-semibold mb-2">Gameplay Tips</h3>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Combine abilities for powerful synergies</li>
+                            <li>Prioritize mobility upgrades early</li>
+                            <li>Learn monster attack patterns</li>
+                            <li>Experiment with different builds</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ -->
+            <section class="pt-6">
+                <h2 class="text-2xl font-semibold text-gray-900 mb-4">Frequently Asked Questions</h2>
+                <div class="space-y-4">
+                    <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="font-semibold mb-2">Is Monster Survivors free to play?</h3>
+                        <p class="text-gray-600">Yes, the game is completely free to play with optional cosmetic upgrades.</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="font-semibold mb-2">What platforms are supported?</h3>
+                        <p class="text-gray-600">The game runs directly in your browser and supports both PC and mobile devices.</p>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="bg-gray-100 border-t border-gray-200 mt-12">
+        <div class="max-w-4xl mx-auto px-4 py-6">
+            <p class="text-center text-gray-600 text-sm">
+                © 2023 Monster Survivors. All rights reserved. 
+                <a href="/privacy" class="text-blue-500 hover:text-blue-600">Privacy Policy</a> | 
+                <a href="/terms" class="text-blue-500 hover:text-blue-600">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
