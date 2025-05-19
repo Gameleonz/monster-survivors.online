@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    display: block;
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+}
+
+.game-info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px black;
+    z-index: 10;
+}
+
+.game-info div {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蜜蜂射击游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="game-info">
+            <div id="score">分数: 0</div>
+            <div id="beeCount">小蜜蜂: 0/160</div>
+            <div id="bigBeeCount">大蜜蜂: 0/3</div>
+            <div id="turretType">普通炮台 (按F1切换)</div>
+        </div>
+    </div>
+    
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+    <script src="js/bullet.js"></script>
+    <script src="js/explosion.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
